@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>coffee</title>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#" class="logo"><i class="fa-solid fa-mug-hot"></i> CafeCode</a>
+        </div>
+        <div class="nav-middle">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="login.html" class="login-link">
+                <button class="login-button">Login</button>
+            </a>
+        </div>
+        
+    </div>
+    
+
+
+    <div class="mid-section"> 
+        <div class="img-text"> 
+            <h2>Fule you code with the perfect <br> blend of coffee</h2>
+            <p> Crafted for coders, brewed for brilliance. <br>Stay focused, fuel creativity, and code with every sip.</p>
+
+            <button>Read More</button> <button>Order</button>
+        </div>
+    </div>
+    <br> <br>
+
+    <div class="info-card-coffee"> 
+        <div class="text-info"> 
+            <h2>The Benefits of Coffee<br> While Coding</h2>
+            <p>Coffee boosts concentration and alertness, reducing fatigue and enhancing focus during long coding sessions. A coffee break can also provide a refreshing mental pause, helping maintain a balanced workflow</p>
+            <br>
+            <button>Read More</button>
+        </div>
+
+        <div class="img-info">
+            <img src="https://img.freepik.com/premium-photo/cup-coffee-with-steam-coming-out-it-tabel-with-laptop_816702-2192.jpg">
+        </div>
+    </div>
+
+    <div class="order-coffee-section">
+        <h1 style="color: #88551a;font-size:40px"> Our Products </h1>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT6pSwG7Phnqj1L6XOjWTzI2xG8ZSTgp9iw&s" alt="Image 1">
+                <h3>Espresso</h3>
+                <p> A strong, concentrated coffee brewed by forcing hot water through finely-ground coffee beans.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE55ZIrMBNiVuDG386CsA3QPIZUDKYD63b3Q&s"> 
+                <h3>Vanilla Bean Latte</h3>
+                <p> A balanced blend of espresso, steamed milk, and a thick layer of milk foam.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrc2tPztEd3gDD0g_tw2hoFgQzY6oclHt3FQ&s" alt="Image 1">
+                <h3>Latte</h3>
+                <p>A creamy coffee made with a shot of espresso and steamed milk, topped with a small amount of foam.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxra9UmQTaLETHKRBIU29BR-Ae72sJW47L5w&s" alt="Image 1">
+                <h3>Americano</h3>
+                <p>A diluted espresso with hot water, offering a smoother, milder flavor</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08-zRlzC6DNMrp0hd570AwvP6Sub-EYF-CA&s" alt="Image 1">
+                <h3>Mocha</h3>
+                <p>A delicious mix of espresso, steamed milk, and chocolate syrup, often topped with whipped cream.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://www.foodandwine.com/thmb/xQZv2CX6FO5331PYK7uGPF1we9Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Partners-Flat-White-FT-BLOG0523-b11f6273c2d84462954c2163d6a1076d.jpg" alt="Image 1">
+                <h3>Flat White</h3>
+                <p>A smooth combination of espresso and micro-foamed milk, popular in Australia and New Zealand.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7xOzziQPRqd2t5MzhPARi1_4MLvgdPFzqnA&s" alt="Image 1">
+                <h3>Affogato</h3>
+                <p>A delightful dessert coffee with a shot of hot espresso poured over a scoop of vanilla ice cream.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JAXWtbrNFjRiQTQcL1UwpHl6jGLduu2wjw&s" alt="Image 1">
+                <h3>Cortado</h3>
+                <p>A delicious mix of espresso, steamed milk, and chocolate syrup, often topped with whipped cream.An espresso cut with an equal amount of steamed milk to reduce acidity and enhance sweetness.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxJxzHQg_rgKfn5K8VUebPxCnaK5PplyUtsA&s" alt="Image 1">
+                <h3>Irish Coffee:</h3>
+                <p>A warm, sweet blend of hot coffee, Irish whiskey, sugar, and topped with whipped cream.</p>
+                <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="Our-show-off"> 
+            <h2>Where will you find CodeCafe? </h2>
+            <p> Nestled in the heart of Mumbai, our coffee shop is a cozy haven where the love for simple, handcrafted delights comes alive every day. From our freshly brewed artisan coffee to our fluffy pancakes, hearty sandwiches, and indulgent chocolate chip banana bread, every bite and sip is made with care. Enjoy the taste of our house-special roasted beans, creamy avocado toast, freshly squeezed juices, and our signature homemade granola. Our greatest joy is bringing together friends, families, and the entire community in a warm, welcoming space. 
+                Come share the love with us at Mumbai, Bandra.
+            </p>   
+        </div>
+
+        <div class="info-card-coffee2"> 
+            <div class="text-info"> 
+              <h2 style="color: #88551a;">Meet Mr. Viet – Our Coffee Connoisseur</h2>
+              <p>At <span style="font-weight:900;"><i>CodeCafe</i></span>, we believe that every cup of coffee tells a story. Mr. Viet, with his warm smile and love for coffee, embodies our passion for crafting the perfect brew. Inspired by the rich tradition of Vietnamese coffee, he reminds us to cherish the simple joys in life – like a freshly brewed cup shared with friends. Join us in celebrating the art of coffee and the beauty of moments spent together.</p>
+            </div>
+
+            <div class="img-info">
+               <img src="WhatsApp Image 2024-09-09 at 1.44.49 AM.jpeg">
+            </div>
+        </div>
+
+        <div class="coffee-clip"> 
+            <h1> How our coffee is made </h1>
+            <video width="100%" controls loop> 
+                <source src="WhatsApp Video 2024-09-09 at 2.13.17 AM.mp4" type="video/mp4"> 
+            </video>
+        </div>
+
+        <div class="our-journey">
+            <h1>Our Coffee Journey </h1>
+            <p>
+                At <span style="font-weight:900;"><i>CodeCafe</i></span>, our passion for coffee starts from the very beginning—sourcing the finest beans from around the world. Each bean tells a story of its own, shaped by the soil, climate, and care of the farmers who cultivate it. Our journey begins with careful selection and ethical sourcing, ensuring that every cup of coffee is not only delicious but also sustainably produced.
+            </p>
+            <p>
+                Our beans are roasted to perfection in small batches, bringing out their unique flavors and aromas. From the rich, earthy tones to the bright, fruity notes, our roasting process is designed to enhance the natural characteristics of each bean. We believe that every cup should be a reflection of the care and craftsmanship that goes into our coffee.
+            </p>
+            <p>
+                But our story doesn’t end with roasting. We are dedicated to perfecting the art of brewing, ensuring that each cup is a delightful experience from the first sip to the last. Whether you’re enjoying a morning espresso or a leisurely afternoon latte, we’re committed to delivering a coffee experience that is both exceptional and memorable.
+            </p>
+            <p>
+                Join us on our journey and discover the story behind every cup of <span style="font-weight:900;"><i>CodeCafe</i></span> —where passion, quality, and craftsmanship come together in perfect harmony.
+            </p>
+        </div>
+        <br> <br> <br>
+
+        <div class="order-coffee-section">
+            <h1 style="font-size: xxx-large;color:#88551a;">CodeCafe Collections</h1>
+            <p style="text-align: center;font-size:20px; font-family:Verdana, Geneva, Tahoma, sans-serif;">Fuel your code with our freshly brewed coffee and keep your ideas crisp with our delicious cookies—crafted for coders, perfected for productivity</p>
+            <br>
+    
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://www.gingerandwhite.com/cdn/shop/files/Photo-Cookies2.jpg?crop=center&height=360&v=1701379645&width=360" alt="Image 1">
+                    <h3>Chocolate Chip Cookie</h3>
+                    <p>A classic American cookie made with a buttery dough mixed with semi-sweet chocolate chips. It's crispy on the edges and soft in the center. Often enjoyed with a glass of milk.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://chelsweets.com/wp-content/uploads/2022/04/chocolate-macarons-stacked-v3.jpg.webp"> 
+                    <h3>Macaron</h3>
+                    <p> A French delicacy made from almond flour, egg whites, and sugar, with a crispy outer shell and a chewy interior.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQCWdBrHRat9gBX6p5pP7hZiJY9a8w_8ETSA&s" alt="Image 1">
+                    <h3>Gingerbread Cookie</h3>
+                    <p>A spiced cookie made with ginger, cinnamon, cloves, and molasses, traditionally shaped like people (gingerbread men) or holiday-themed shapes. Popular around Christmas.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://www.culinary-cool.com/wp-content/uploads/2021/12/Shortbread-2.jpg" alt="Image 1">
+                    <h3>Shortbread Cookie</h3>
+                    <p>A Scottish classic made from butter, sugar, and flour, resulting in a crumbly, rich, buttery texture. It has a simple, sweet flavor and is often enjoyed with tea.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://sallysbakingaddiction.com/wp-content/uploads/2013/05/snickerdoodles-recipe-5.jpg" alt="Image 1">
+                    <h3>Snickerdoodle</h3>
+                    <p>An American cookie made with a buttery dough rolled in cinnamon sugar before baking. It has a soft, chewy texture with a slightly tangy taste due to the cream of tartar.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDhbAe71OdvxhfGrdTOeLaZ5jX8zhvNjrFjg&s" alt="Image 1">
+                    <h3>Nankhatai</h3>
+                    <p>A traditional Indian shortbread cookie made with ghee (clarified butter), sugar, flour, and cardamom. It is soft, crumbly, and has a rich, buttery flavor with a hint of cardamom.</p>
+                    <button class="add-to-cart" onclick="changeText(this)">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="Our-show-off"> 
+                <h2>Health benefits of coffee</h2>
+                <p> 
+                    ❝Did you know that your daily cup of coffee does more than just wake you up? Coffee is packed with antioxidants and essential nutrients that can benefit your health in numerous ways. Regular coffee consumption has been linked to a reduced risk of several diseases, including type 2 diabetes, Alzheimer's, and Parkinson's. It's also known to boost your metabolism and improve physical performance, making it a great pre-workout drink. Plus, coffee can enhance your mood and help fight depression, giving you that much-needed energy and positivity to start your day. So, enjoy your cup of coffee, knowing it's not just delicious but also good for your well-being!❞
+                </p>   
+            </div>
+
+            <div class="timings-open">
+                <div class="img-info2"> 
+                    <img src="WhatsApp Image 2024-09-09 at 5.55.32 PM.jpeg" alt="cofee-img"> 
+                </div>
+                <div class="text-info1">
+                    <h1 style="font-size: xxx-large;color:#88551a;">Opnings Hours</h1>
+                    <p style="font-size:large;text-align:center;line-height:1.1em;"><i>❝𝐖𝐞 𝐝𝐨𝐧𝐭 𝐭𝐚𝐤𝐞 𝐛𝐨𝐨𝐤𝐢𝐧𝐠𝐬 𝐛𝐮𝐭 𝐰𝐞 𝐡𝐚𝐯𝐞 𝐭𝐚𝐛𝐥𝐞𝐬 𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐢𝐧𝐬𝐢𝐝𝐞 𝐚𝐧𝐝 𝐨𝐮𝐭𝐬𝐢𝐝𝐞 𝐟𝐨𝐫 𝐰𝐚𝐥𝐤 𝐢𝐧'𝐬❞</i></p>
+                    <p style="font-size: large;line-height:1.1em;">
+                        Monday - Friday<br>
+                        7.30am - 5.30pm
+                    </p>
+               
+                    <p style="font-size: large;line-height:1.1em;">
+                        Saturday<br>
+                        7.30am - 6pm
+                    </p>
+            
+                    <p style="font-size: large;line-height:1.1em;">
+                        Sunday<br>
+                        8am - 6pm
+                    </p>
+                   <button>Get Direction</button>
+                </div>
+            </div>
+
+
+            <div class="About-the-Developer"> 
+                <h1 style="color: #88551a;">__About the developer__</h1>
+                <img src="WhatsApp Image 2024-09-10 at 2.56.10 PM.jpeg" alt="my ing">
+                <h2>Alison Pinto</h2>
+                <p>A first-year engineering student at FCRIT College, I am passionate about honing soft skills and diving deep into the world of coding. Enthusiastic about technology and innovation, I am constantly exploring new ideas and learning opportunities to grow in both technical and personal development.</p>
+
+                <div class="icons">
+                    <a href="www.linkedin.com/in/alison-pinto-24862026b" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Alisonpinto?tab=repositories" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="http://blogwithalison.blogspot.com/" target="_blank" aria-label="Blogger">
+                        <i class="fa-brands fa-blogger-b"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="panel-1">
+                <a href="#">Back to Top</a>
+            </div>
+
+            <div class="footer">
+                <div class="foot1">
+                    <h3 style="font-size:24px;"><i class="fa-solid fa-mug-hot"></i> CafeCode</h3>
+                    <p>Welcome to Code Café, where every cup fuels creativity! Discover our freshly brewed coffees and get inspired by our journey of blending code and coffee. Sip, relax, and code your way through delicious moments.</p>
+                </div>
+
+                <div class="foot2">
+                    <h3 style="font-size:24px;"> Get in Touch</h3>
+                    <p>
+                        Connect with us for queries, feedback, or to explore our coffee. Follow us on social media for updates.
+                    </p>
+                </div>
+
+                <div class="put_email">
+                    <ul>
+                        <h3 style="font-weight: 600; font-size: 24px; margin-left: 10px; margin-right:50%; margin-left:10px;margin-top:-12px;">Connect with us</h3>
+                    </ul>
+                    <p></p>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>©Copyright for this website is been prohibited</p>
+            </div>
+            
+            
+
+
+
+
+
+        <script>
+            function changeText(button) {
+                if (button.innerHTML === "Add to cart") {
+                    button.innerHTML = "Added";
+                } else {
+                    button.innerHTML = "Add to cart";
+                }
+            }
+
+            document.addEventListener('scroll', function() {
+                const images = document.querySelectorAll('.img-info img'); // Select all images
+            
+                images.forEach((image) => {
+                    const rect = image.getBoundingClientRect(); // Get the position of each image
+                    const windowHeight = window.innerHeight; // Get the height of the viewport
+            
+                    if (rect.top <= windowHeight && rect.bottom >= 0) { // Check if the image is in view
+                        image.classList.add('animate'); // Add the animate class
+                    } else {
+                        image.classList.remove('animate'); // Optionally, remove the animate class when not in view
+                    }
+                });
+            });
+            
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Clothing Brand</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="#" class="logo"><i class="fa-solid fa-mug-hot"></i> CafeCode</a>
+        </div>
+        <div class="nav-middle">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-right">
+            <a href="login.html" class="login-link">
+                <button class="login-button">Login</button>
+            </a>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="search-bar-container" id="search-bar-container">
+        <div class="search-bar" id="search-bar">
+            <input type="text" id="search-input" placeholder="Search..." onkeyup="searchProducts()">
+            <button id="close-btn" onclick="closeSearch()">Close</button>
+        </div>
+        <div id="search-results"></div>
+    </div>
+    <br><br>
+
+    <h1>Log in</h1>
+    <form class="login-form">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required style="color: #402218; font-size:15px; font-weight:700">
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required style="color: #402218; font-size:15px; font-weight:700">  
+        
+        <button type="submit" class="sign-in-button">SIGN IN</button>  
+        <a href="#" class="forgot-password">Forgot your password?</a>
+    </form>
+    
+    <p class="create-account-link">Don't have an account yet? <a href="create.html">Create account</a></p>
+    <div class="social-login">
+        <button class="facebook-login">Login with Facebook</button>
+        <button class="google-login">Login with Google</button>
+    </div>
+    <a href="index.html" class="return-store" style="color: #402218;">Return to Store</a>
+    <script src="Search.js"></script>
+</body>
+</html>
